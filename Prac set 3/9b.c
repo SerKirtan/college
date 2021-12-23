@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main(){
 
-    int i,j,x;
+    int r,c,x;
     int rows=5;
-    for(i=1;i<=rows;i++)
+    for(c=1;c<=rows;c++)
     {
-        for(j=1,x=1;j<=2*rows-1;j++)
+        for(r=1,x=1;r<=2*rows-1;r++)
         {
-            if(j>=rows-(i-1)&&j<=rows+(i-1))
+            if(r>=rows-(c-1)&&r<=rows+(c-1))
             {
-                if(j%2==0 && i%2==1 || j%2==1 && i%2==0)
+                if(r%2==0 && c%2==1 || r%2==1 && c%2==0)
                     printf(" ");
                 else
-                    printf("*");
+                    printf("%d",x++);
             }
             else
                 printf(" ");
