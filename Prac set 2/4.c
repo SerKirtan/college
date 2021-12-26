@@ -1,3 +1,11 @@
+/*Read marks and display equivalent grade
+MARKS   ->  GRADE
+100-80  ->  Distinction
+60-79   ->  First class
+40-59   ->  Second class
+0-39    ->  Failed
+*/
+
 #include<stdio.h>
 int main()
 {
