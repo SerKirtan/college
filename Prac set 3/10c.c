@@ -1,3 +1,9 @@
+/*Pattern
+55555
+4444
+333
+22
+1*/
 #include<stdio.h>
 int main(){
 
