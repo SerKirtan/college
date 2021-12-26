@@ -1,3 +1,5 @@
+//Sum of first and last digit
+
 #include <stdio.h>
 int main()
 {
