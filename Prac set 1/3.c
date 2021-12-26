@@ -1,3 +1,5 @@
+//Simple interest
+
 int main() 
 {
  int n;
