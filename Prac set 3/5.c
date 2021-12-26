@@ -1,3 +1,5 @@
+//Find sum and average of all the numbers entered by the user
+
 #include <stdio.h>
 int main()
 {
