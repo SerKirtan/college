@@ -1,3 +1,5 @@
+//sizeof operator
+
 #include <stdio.h>
 
 int main()
