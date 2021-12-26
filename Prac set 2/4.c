@@ -10,11 +10,13 @@ MARKS   ->  GRADE
 int main()
 {
  int marks;
+ repeat:
  printf("\n Enter Marks between 0-100 :");
  scanf("%d",&marks);
  if(marks>100 || marks <0)
  {
   printf("\n Your Input is out of Range");
+  goto repeat;
  }
  else if(marks>=80)
  {
