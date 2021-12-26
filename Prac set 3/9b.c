@@ -1,3 +1,9 @@
+/*Pattern
+    *
+   * *
+  * * *
+ * * * *
+*/
 #include<stdio.h>
 int main(){
 
