@@ -1,3 +1,5 @@
+//WAP that works a calculator
+
 #include <stdio.h>
 int main()
 {
@@ -11,7 +13,7 @@ int main()
     addition       = number1 + number2 ;
     subtraction = number1 - number2;
     multiply = number1 * number2;
-    divide     = number1 / (float)number2;   //typecasting
+    divide     = number1 / (float)number2;
     printf("Addition = %d\n",addition);
     printf("Subtraction = %d\n",subtraction);
     printf("Multiplication = %d\n",multiply);
