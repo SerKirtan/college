@@ -1,3 +1,5 @@
+// Enter 1-7 and print relative day
+
 #include<stdio.h>
 
 int main()
