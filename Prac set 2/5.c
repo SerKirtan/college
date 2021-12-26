@@ -1,3 +1,5 @@
+//Salary slip
+
 #include<stdio.h>
 
 int main()
