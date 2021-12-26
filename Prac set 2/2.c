@@ -21,7 +21,7 @@ int main()
  }
  else
  {
-  printf("Please enter marks between 0-100");
+  printf("Please enter marks between 0-100\n");
   scanf("%d",&marks);
   goto repeat;
  }
