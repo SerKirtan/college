@@ -1,3 +1,5 @@
+//Check if the number is -ve, +ve or zero
+
 #include<stdio.h>
 
 int main()
