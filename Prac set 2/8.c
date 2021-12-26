@@ -1,3 +1,5 @@
+//WAP to check if the last digit is odd or even
+
 #include <stdio.h>
 
 int main() 
