@@ -1,3 +1,5 @@
+//WAP to check if the entered character is Uppercase, lowercase, digit or a special character
+
 #include<stdio.h>
 #include<ctype.h>
 
