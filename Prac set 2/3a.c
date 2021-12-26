@@ -1,3 +1,5 @@
+//Maximum and minimum of three numbers
+
 #include<stdio.h>
 int main()
 {
