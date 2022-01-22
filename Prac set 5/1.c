@@ -9,7 +9,7 @@ int fun(int n)
 }
 int main()
 {
-    int a,n=1;
+    int a,n;
     scanf("%d",&a);
     printf("%d",fun(a));
     return 0;
