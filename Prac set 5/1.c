@@ -2,15 +2,15 @@
 #include <stdio.h>
 int fun(int n)
 {
-    if(n==1)
-        return 1;
-    else
-        return n + fun(n-1);
+    int i=1,sum=0;
+    for(;i<=n;i++)
+        sum+=i;
+    printf("Sum of first %d numbers is %d",n,sum);
 }
 int main()
 {
-    int a,n;
-    scanf("%d",&a);
-    printf("%d",fun(a));
+    int n;
+    scanf("%d",&n);
+    fun(n);
     return 0;
 }
