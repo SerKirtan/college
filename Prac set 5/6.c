@@ -9,7 +9,6 @@ int fun(int n)
 }
 int main()
 {
-    int n;
     printf("%d",fun(20));
     return 0;
 }
