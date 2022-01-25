@@ -1,21 +1,22 @@
-//Fibonacci series using recursive function. 
+//Fibonacci series using recursive function.
 #include <stdio.h>
-int fun(int n)
+int fun(int n,int t1,int t2,int sum)
 {
-    int i=1,sum=0,t1=0,t2=1;
-    for(;i<=n;i++)
+    if(n==0)
+        return 0;
+    else
     {
         printf("%d ",t1);
         sum=t1+t2;
         t1=t2;
         t2=sum;
+        return fun(n-1,t1,t2,sum);
     }
-    return 0;
 }
 int main()
 {
-    int a;
-    scanf("%d",&a);
-    fun(a);
+    int n;
+    scanf("%d",&n);
+    fun(n,0,1,0);
     return 0;
 }
