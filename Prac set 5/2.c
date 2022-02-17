@@ -3,18 +3,14 @@
 int prime(int n)
 {
     for(int i=2;i<n;i++)
-    {
         if(n%i==0)
             return 1;
-        else
-            continue;
-    }
     return 0;
 }
 int main()
 {
-    int a,n;
-    scanf("%d",&a);
-    printf("%d",prime(a));
+    int n;
+    scanf("%d",&n);
+    printf("%d",prime(n));
     return 0;
 }
