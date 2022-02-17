@@ -9,8 +9,8 @@ int fun(int n)
 }
 int main()
 {
-    int a,n;
-    scanf("%d",&a);
-    printf("%d",fun(a));
+    int n;
+    scanf("%d",&n);
+    printf("%d",fun(n);
     return 0;
 }
