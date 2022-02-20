@@ -1,4 +1,4 @@
-//Copy one array to another using pointer
+//input and print array elements using pointers.
 #include <stdio.h>
 int main()
 {
