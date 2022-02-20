@@ -6,5 +6,5 @@ void main()
     ptr=&x;
     printf("Enter value of x: ");
     scanf("%d",&x);
-    printf("Address of variable x is %d",ptr);
+    printf("Address of variable x is %p",ptr);
 }
