@@ -2,7 +2,6 @@
 #include<stdio.h>
 void main()
 {
-    char c,s[100]="Hello world";
-    char *c2,*s2[100];
-    printf("Address of character is %p and string is %p",c2,s2);
+    char *c,*s[100];
+    printf("Address of character is %p and string is %p",c,s);
 }
