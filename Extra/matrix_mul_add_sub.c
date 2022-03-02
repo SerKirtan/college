@@ -8,7 +8,7 @@ int main()
     scanf("%d %d",&n,&m);
     printf("Enter size of array-2 -> rows and columns : ");
     scanf("%d %d",&n1,&m1);
-    int a[n][m],b[n][m],c[n][m];
+    int a[n][m],b[n][m],c[50][50];
     printf("Enter the elements of array-1 :\n");
     for(i=0;i<n;i++)
         for(j=0;j<m;j++)
@@ -76,7 +76,7 @@ int main()
     if(flag==0){
     printf("\nMatrix A%cB is : ",ch);
     for(i=0;i<n;i++)
-            for(j=0;j<m;j++)
+            for(j=0;j<m1;j++)
                 printf("%d ",c[i][j]);
     }
 	return 0;
