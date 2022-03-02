@@ -1,9 +1,9 @@
-//Multiplication, addition and subtraction of matrix
 #include<stdio.h>
 int main()
 {
     char ch;
     int n,m,n1,m1,i,j,k,sum=0,flag=0;
+    t2:
     printf("Enter size of array-1 -> rows and columns : ");
     scanf("%d %d",&n,&m);
     printf("Enter size of array-2 -> rows and columns : ");
@@ -36,7 +36,8 @@ int main()
             }
         }
         else{
-            printf("Multiplication not possible");
+            printf("\nMultiplication not possible\nRe-enter matrix dimensions\n");
+            goto t2;
             flag=1;
         }
     break;
@@ -49,7 +50,8 @@ int main()
         }
         else
         {
-            printf("Addition is not possible");
+            printf("\nAddition not possible\nRe-enter matrix dimensions\n");
+            goto t2;
             flag=1;
         }
         break;
@@ -62,7 +64,8 @@ int main()
         }
         else
         {
-            printf("Addition is not possible");
+            printf("\nSubtraction not possible\nRe-enter matrix dimensions\n");
+            goto t2;
             flag=1;
         }
     break;
