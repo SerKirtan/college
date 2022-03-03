@@ -8,7 +8,7 @@ int main()
     scanf("%d %d",&n,&m);
     printf("Enter size of array-2 -> rows and columns : ");
     scanf("%d %d",&n1,&m1);
-    int a[n][m],b[n][m],c[50][50];
+    int a[n][m],b[n1][m1],c[50][50];
     printf("Enter the elements of array-1 :\n");
     for(i=0;i<n;i++)
         for(j=0;j<m;j++)
