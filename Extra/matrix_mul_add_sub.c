@@ -70,11 +70,9 @@ int main()
         fflush(stdin);
         goto t;
     }
-    if(flag==0){
     printf("\nMatrix A%cB is : ",ch);
     for(i=0;i<n;i++)
             for(j=0;j<m1;j++)
                 printf("%d ",c[i][j]);
-    }
 	return 0;
 }
