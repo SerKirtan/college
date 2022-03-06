@@ -2,7 +2,7 @@
 int main()
 {
     char ch;
-    int n,m,n1,m1,i,j,k,sum=0,flag=0;
+    int n,m,n1,m1,i,j,k,sum=0;
     t2:
     printf("Enter size of array-1 -> rows and columns : ");
     scanf("%d %d",&n,&m);
@@ -38,7 +38,6 @@ int main()
         else{
             printf("\nMultiplication not possible\nRe-enter matrix dimensions\n");
             goto t2;
-            flag=1;
         }
     break;
     case '+':
@@ -52,7 +51,6 @@ int main()
         {
             printf("\nAddition not possible\nRe-enter matrix dimensions\n");
             goto t2;
-            flag=1;
         }
         break;
     case '-':
@@ -66,7 +64,6 @@ int main()
         {
             printf("\nSubtraction not possible\nRe-enter matrix dimensions\n");
             goto t2;
-            flag=1;
         }
     break;
     default:
