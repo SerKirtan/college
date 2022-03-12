@@ -1,21 +1,16 @@
-//Fibonacci series
-
-#include <stdio.h>
-int main()
+//Fibonacci
+#include<stdio.h>
+void main()
 {
-    int n,result=2,a=0,b=1;
-    printf("Enter a number\n");
+    int t1=0, t2=1,sum=0,n;
+    printf("Enter how many terms you want : ");
     scanf("%d",&n);
-    if(n==1)
-        printf("Fibonacci series upto 1 term is\n0");
-    else
-        printf("Fibonacci series upto %d terms is\n0 ",n);
-    for(n;n!=1;n--)
+    while(n!=0)
     {
-        result=a+b;
-        printf("%d ",result);
-        a=b;
-        b=result;
+        printf("%d ",t1);
+        sum=t1+t2;
+        t1=t2;
+        t2=sum;
+        n--;
     }
-    return 0;
 }
